@@ -632,8 +632,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj"
+            "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LFoQ7S4xzTQC8Ho9//iW4PV4Ge3CdHMHRu6dnTLkSGZ8eQULQvnRq/w9SiISJYpJtXGXB626FoUUIAzReEMYGQ==",
+  "dgSpecHash": "losZQtvLpoRbmHvyTaFpVZToHlXgQbZrJg3SicLXJqM7/cUd8AtJkn1KcjSH2nPfUmRQS7qnWqvNbavXh1AOKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj",
+  "projectFilePath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

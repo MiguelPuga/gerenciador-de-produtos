@@ -16,3 +16,4 @@ C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\obj\De
 C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

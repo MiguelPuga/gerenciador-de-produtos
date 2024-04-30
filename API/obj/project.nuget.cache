@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BL8JnMqdmGgUUINowW+ysHjtugF2Z8yQQbXK1m/tM7C9326FhStgeMWs15sq2ZaxHl5CrslJzSZ1HNiJaaSAyA==",
+  "dgSpecHash": "y52/DkLSG0UDoduSDS9aZb9NwCocsFj0/7Xx24ClBGfPY6aSXP9ICV0ENmHYkDPmnhIvKtniNOYkTRQ/u6jbrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miguel.puga\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\miguel.puga\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

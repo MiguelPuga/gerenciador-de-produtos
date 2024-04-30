@@ -44,3 +44,4 @@ C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\bin\Debug\net8.0\
 C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\obj\Debug\net8.0\API.sourcelink.json

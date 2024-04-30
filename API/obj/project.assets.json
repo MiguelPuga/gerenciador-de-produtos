@@ -1169,11 +1169,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
+      "projectUniqueName": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
+      "projectPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
       "packagesPath": "C:\\Users\\miguel.puga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\obj\\",
+      "outputPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miguel.puga\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1188,8 +1188,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj"
+            "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj"
             },
             "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj"

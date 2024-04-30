@@ -18,9 +18,9 @@ public class UserController
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post(CreateUserRequest command)
+    public async Task<CreateUserResponse> Post(CreateUserRequest command)
     {
         var response = await _mediator.Send(command);
-        return new OkObjectResult(response);
+        return response;
     }
 }

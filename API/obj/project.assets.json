@@ -1164,35 +1164,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miguel.puga\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguel Puga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
+      "projectUniqueName": "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\miguel.puga\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\API\\obj\\",
+      "projectPath": "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Miguel Puga\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\miguel.puga\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Miguel Puga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj"
+            "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj"
+            "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1257,7 +1259,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "message": "Versão detectada do pacote fora da restrição de dependência: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requer MediatR (>= 11.0.0 && < 12.0.0), mas a versão MediatR 12.2.0 foi resolvida.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"

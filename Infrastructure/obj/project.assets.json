@@ -608,32 +608,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miguel.puga\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguel Puga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\miguel.puga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Miguel Puga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\miguel.puga\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Miguel Puga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\miguel.puga\\Documents\\Dev\\gerenciador-de-produtos\\Domain\\Domain.csproj"
+            "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Miguel Puga\\Documents\\Work\\Projects\\gerenciador-de-produtos\\Domain\\Domain.csproj"
             }
           }
         }

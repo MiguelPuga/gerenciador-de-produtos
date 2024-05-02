@@ -2,8 +2,4 @@
 using Domain;
 using MediatR;
 
-public class CreateUserRequest : IRequest<CreateUserResponse>
-{
-    public string name { get; set; }
-    public string email { get; set; }
-}
+public record CreateUserRequest(string name, string email) : IRequest<CreateUserResponse>;

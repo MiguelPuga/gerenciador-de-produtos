@@ -2,8 +2,8 @@
 
 public class User : EntityBase
 {
-    public string name { get; private set; }
-    public string email { get; private set; }
+    public string name { get; set; }
+    public string email { get; set; }
 
     public User(string name, string email)
     {

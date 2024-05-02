@@ -1,5 +1,6 @@
 ﻿namespace Infrastructure;
 using Domain;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 public class UserRepository : IUserRepository
 {
@@ -12,17 +13,52 @@ public class UserRepository : IUserRepository
 
     public User Add(User user)
     {
-        return _context.Users.Add(user).Entity;
+        var newUser = _context.Users.Add(user).Entity;
+        _context.SaveChanges();
+        return newUser;
     }
 
     public bool Delete(User user)
     {
-        throw new NotImplementedException();
+        if (user != null)
+        {
+            _context.Remove(user);
+            _context.SaveChanges();
+            return true;
+        }
+
+        return false;
     }
 
-    public User Update(User user)
+    public User Update(User original, User modified)
     {
-        throw new NotImplementedException();
+        if (original != null && modified != null)
+        {
+            original.name = modified.name;
+            original.email = modified.email;
+
+            _context.SaveChanges();
+            return modified;
+        }
+
+
+        return null;
     }
 
+    public List<User> GetUserList()
+    {
+        return _context.Users.ToList();
+    }
+
+    public User GetUserById(Guid id)
+    {
+        var user = _context.Users.Find(id);
+
+        if (user != null)
+        {
+            return user;
+        }
+
+        return null;
+    }
 }

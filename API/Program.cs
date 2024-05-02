@@ -1,6 +1,8 @@
+using API;
 using Domain;
 using Infrastructure;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
@@ -10,10 +12,10 @@ var services = builder.Services;
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMvc();
-builder.Services.AddDbContext<DatabaseContext>();
+builder.Services.AddDbContext<DatabaseContext>(opt => opt.UseInMemoryDatabase("Data"));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(Product)));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(UserController)));
 
 
 var app = builder.Build();
@@ -28,6 +30,7 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+app.MapControllers();
 app.UseAuthorization();
 app.Run();
 

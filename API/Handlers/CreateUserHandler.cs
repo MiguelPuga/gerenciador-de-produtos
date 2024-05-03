@@ -21,13 +21,7 @@ public class CreateUserHandler : IRequestHandler<CreateUserRequest, CreateUserRe
         _repository.Add(user);
 
         // Retorna a resposta
-        var result = new CreateUserResponse
-        {
-            Id = user.Id,
-            name = user.name,
-            email = user.email,
-            date = DateTime.Now
-        };
+        var result = new CreateUserResponse(user.Id, user.name, user.email, DateTime.Now);
         return Task.FromResult(result);
     }
 

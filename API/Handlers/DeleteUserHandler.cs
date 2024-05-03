@@ -17,10 +17,15 @@ public class DeleteUserHandler : IRequestHandler<DeleteUserRequest, DeleteUserRe
     public async Task<DeleteUserResponse> Handle(DeleteUserRequest request, CancellationToken cancellationToken)
     {
         var user = await _mediator.Send(new GetUserByIdQuery(request.id));
-        var result = new DeleteUserResponse
+
+        string response = "Não foi possível deletar o usuário";
+
+        if (_repository.Delete(user))
         {
-            status = _repository.Delete(user)
-        };
+            response = "Usuário deletado com sucesso";
+        }
+
+        var result = new DeleteUserResponse(response);
 
         return await Task.FromResult(result);
     }

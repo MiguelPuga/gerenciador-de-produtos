@@ -19,13 +19,7 @@ public class UpdateUserHandler : IRequestHandler<UpdateUserRequest, UpdateUserRe
 
         _repository.Update(user, request.user);
 
-        var result = new UpdateUserResponse
-        {
-            Id = user.Id,
-            name = request.user.name,
-            email = request.user.email,
-            date = DateTime.Now
-        };
+        var result = new UpdateUserResponse(user.Id, request.user.name, request.user.email, DateTime.Now);
 
         return await Task.FromResult(result);
     }

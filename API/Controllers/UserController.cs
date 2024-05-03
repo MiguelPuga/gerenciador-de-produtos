@@ -25,7 +25,7 @@ public class UserController
         return await _mediator.Send(new GetUserListQuery());
     }
 
-    [Route("GetById")]
+    [Route("GetUserById")]
     [HttpGet]
     public async Task<ActionResult<User>> GetUserById(Guid id)
     {

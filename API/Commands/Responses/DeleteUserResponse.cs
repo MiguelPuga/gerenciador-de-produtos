@@ -1,7 +1,3 @@
 ﻿namespace API;
 
-public class DeleteUserResponse
-{
-    public bool status { get; set; }
-
-}
+public record DeleteUserResponse(string status);

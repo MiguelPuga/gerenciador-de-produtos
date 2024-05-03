@@ -1,6 +1,5 @@
 ﻿namespace Infrastructure;
 using Domain;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 
 public class UserRepository : IUserRepository
 {

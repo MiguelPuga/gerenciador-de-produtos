@@ -2,10 +2,10 @@
 
 public class Product : EntityBase
 {
-    public string name { get; private set; }
-    public Price price { get; private set; }
+    public string name { get; set; }
+    public Price price { get; set; }
 
-    public Product (string name, Price price)
+    public Product(string name, Price price)
     {
         this.name = name;
         this.price = price;

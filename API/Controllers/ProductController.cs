@@ -6,40 +6,42 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("[controller]")]
-public class UserController
+public class ProductController
 {
     private readonly IMediator _mediator;
     private readonly IUserRepository _repository;
 
-    public UserController(IMediator mediator, IUserRepository repository)
+    public ProductController(IMediator mediator, IUserRepository repository)
     {
         _mediator = mediator;
         _repository = repository;
     }
 
-    [Route("GetUserList")]
+    [Route("GetProductList")]
     [HttpGet]
-    public async Task<ActionResult<List<User>>> GetUsers()
+    public async Task<ActionResult<List<Product>>> GetProductList()
     {
-        return await _mediator.Send(new GetUserListQuery());
+        return await _mediator.Send(new GetProductListQuery());
     }
 
-    [Route("GetUserById")]
+    /*
+    [Route("GetProductById")]
     [HttpGet]
     public async Task<ActionResult<User>> GetUserById(Guid id)
     {
         return await _mediator.Send(new GetUserByIdQuery(id));
     }
+    */
 
-    [Route("CreateUser")]
+    [Route("CreateProduct")]
     [HttpPost]
-    public async Task<CreateUserResponse> Post([FromBody] CreateUserRequest command)
+    public async Task<CreateProductResponse> Post([FromBody] CreateProductRequest command)
     {
         var response = await _mediator.Send(command);
         return response;
     }
 
-    [Route("UpdateUser")]
+    /* [Route("UpdateProduct")]
     [HttpPost]
     public async Task<UpdateUserResponse> Post([FromBody] UpdateUserRequest command)
     {
@@ -47,12 +49,12 @@ public class UserController
         return response;
     }
 
-    [Route("DeleteUser")]
+    [Route("DeleteProduct")]
     [HttpPost]
     public async Task<DeleteUserResponse> Post([FromBody] DeleteUserRequest command)
     {
         var response = await _mediator.Send(command);
         return response;
-    }
+    } */
 }
 

@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMvc();
 builder.Services.AddDbContext<DatabaseContext>(opt => opt.UseInMemoryDatabase("Data"));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(UserController)));
 

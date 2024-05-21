@@ -1,7 +1,10 @@
-﻿namespace Domain;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
+namespace Domain;
+
+[ComplexType]
 public record Price
 (
-    float value,
+    decimal value = 0,
     string currency = "BRL"
 );

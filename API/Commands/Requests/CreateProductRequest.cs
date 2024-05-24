@@ -2,4 +2,4 @@
 using Domain;
 using MediatR;
 
-public record CreateProductRequest(string name, string currency, decimal value) : IRequest<CreateProductResponse>;
+public record CreateProductRequest(string name, decimal price, string currency) : IRequest<CreateProductResponse>;

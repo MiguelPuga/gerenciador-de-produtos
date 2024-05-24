@@ -24,14 +24,14 @@ public class ProductController
         return await _mediator.Send(new GetProductListQuery());
     }
 
-    /*
+
     [Route("GetProductById")]
     [HttpGet]
-    public async Task<ActionResult<User>> GetUserById(Guid id)
+    public async Task<ActionResult<Product>> GetProductById(Guid id)
     {
-        return await _mediator.Send(new GetUserByIdQuery(id));
+        return await _mediator.Send(new GetProductByIdQuery(id));
     }
-    */
+
 
     [Route("CreateProduct")]
     [HttpPost]
@@ -41,9 +41,9 @@ public class ProductController
         return response;
     }
 
-    /* [Route("UpdateProduct")]
+    [Route("UpdateProduct")]
     [HttpPost]
-    public async Task<UpdateUserResponse> Post([FromBody] UpdateUserRequest command)
+    public async Task<UpdateProductResponse> Post([FromBody] UpdateProductRequest command)
     {
         var response = await _mediator.Send(command);
         return response;
@@ -51,10 +51,10 @@ public class ProductController
 
     [Route("DeleteProduct")]
     [HttpPost]
-    public async Task<DeleteUserResponse> Post([FromBody] DeleteUserRequest command)
+    public async Task<DeleteProductResponse> Post([FromBody] DeleteProductRequest command)
     {
         var response = await _mediator.Send(command);
         return response;
-    } */
+    }
 }
 

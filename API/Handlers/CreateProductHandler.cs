@@ -15,13 +15,13 @@ public class CreateProductHandler : IRequestHandler<CreateProductRequest, Create
     {
 
         // Cria a entidade
-        var product = new Product(request.name, new Price(request.value, request.currency));
+        var product = new Product(request.name, request.price, request.currency);
 
         // Persiste a entidade no banco
         _repository.Add(product);
 
         // Retorna a resposta
-        var result = new CreateProductResponse(product.Id, product.name, product.price.currency, product.price.value, DateTime.Now);
+        var result = new CreateProductResponse(product.Id, product.name, product.price, product.currency, DateTime.Now);
         return Task.FromResult(result);
     }
 }

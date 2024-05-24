@@ -1,2 +1,2 @@
 ﻿namespace API;
-public record CreateProductResponse(Guid Id, string name, string currency, decimal value, DateTime date);
+public record CreateProductResponse(Guid Id, string name, decimal price, string currency, DateTime date);

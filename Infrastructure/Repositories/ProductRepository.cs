@@ -52,6 +52,7 @@ public class ProductRepository : IProductRepository
         {
             original.name = modified.name;
             original.price = modified.price;
+            original.currency = modified.currency;
 
             _context.SaveChanges();
             return modified;

@@ -5,10 +5,10 @@ namespace API;
 
 public class UpdateUserHandler : IRequestHandler<UpdateUserRequest, UpdateUserResponse>
 {
-    private readonly IUserRepository _repository;
+    private readonly IRepository<User> _repository;
     private readonly IMediator _mediator;
 
-    public UpdateUserHandler(IMediator mediator, IUserRepository repository)
+    public UpdateUserHandler(IMediator mediator, IRepository<User> repository)
     {
         _mediator = mediator;
         _repository = repository;

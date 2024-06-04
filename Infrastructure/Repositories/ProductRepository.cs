@@ -2,7 +2,7 @@
 
 namespace Infrastructure;
 
-public class ProductRepository : IProductRepository
+public class ProductRepository : IRepository<Product>
 {
     private readonly DatabaseContext _context;
 
@@ -29,7 +29,7 @@ public class ProductRepository : IProductRepository
         return false;
     }
 
-    public Product GetProductById(Guid id)
+    public Product GetById(Guid id)
     {
         var product = _context.Products.Find(id);
 
@@ -41,7 +41,7 @@ public class ProductRepository : IProductRepository
         return null;
     }
 
-    public List<Product> GetProductList()
+    public List<Product> GetList()
     {
         return _context.Products.ToList();
     }

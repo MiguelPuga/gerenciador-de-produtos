@@ -6,15 +6,15 @@ namespace API;
 public class GetProductByIdHandler : IRequestHandler<GetProductByIdQuery, Product>
 {
 
-    private readonly IProductRepository _repository;
+    private readonly IRepository<Product> _repository;
 
-    public GetProductByIdHandler(IProductRepository repository)
+    public GetProductByIdHandler(IRepository<Product> repository)
     {
         _repository = repository;
     }
 
     public Task<Product> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
     {
-        return Task.FromResult(_repository.GetProductById(request.id));
+        return Task.FromResult(_repository.GetById(request.id));
     }
 }

@@ -5,10 +5,10 @@ namespace API;
 
 public class UpdateProductHandler : IRequestHandler<UpdateProductRequest, UpdateProductResponse>
 {
-    private readonly IProductRepository _repository;
+    private readonly IRepository<Product> _repository;
     private readonly IMediator _mediator;
 
-    public UpdateProductHandler(IMediator mediator, IProductRepository repository)
+    public UpdateProductHandler(IMediator mediator, IRepository<Product> repository)
     {
         _mediator = mediator;
         _repository = repository;

@@ -1,7 +1,7 @@
 ﻿namespace Infrastructure;
 using Domain;
 
-public class UserRepository : IUserRepository
+public class UserRepository : IRepository<User>
 {
     private readonly DatabaseContext _context;
 
@@ -44,12 +44,12 @@ public class UserRepository : IUserRepository
         return null;
     }
 
-    public List<User> GetUserList()
+    public List<User> GetList()
     {
         return _context.Users.ToList();
     }
 
-    public User GetUserById(Guid id)
+    public User GetById(Guid id)
     {
         var user = _context.Users.Find(id);
 

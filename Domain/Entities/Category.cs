@@ -2,7 +2,7 @@
 
 public class Category : EntityBase
 {
-    public string name { get; private set; }
+    public string name { get; set; }
 
     protected Category(string name)
     {

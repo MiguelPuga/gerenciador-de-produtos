@@ -4,9 +4,9 @@ namespace API;
 
 public class CreateProductHandler : IRequestHandler<CreateProductRequest, CreateProductResponse>
 {
-    private readonly IProductRepository _repository;
+    private readonly IRepository<Product> _repository;
 
-    public CreateProductHandler(IProductRepository repository)
+    public CreateProductHandler(IRepository<Product> repository)
     {
         _repository = repository;
     }

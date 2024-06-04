@@ -4,9 +4,9 @@ namespace API;
 
 public class CreateUserHandler : IRequestHandler<CreateUserRequest, CreateUserResponse>
 {
-    private readonly IUserRepository _repository;
+    private readonly IRepository<User> _repository;
 
-    public CreateUserHandler(IUserRepository repository)
+    public CreateUserHandler(IRepository<User> repository)
     {
         _repository = repository;
     }

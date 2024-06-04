@@ -9,12 +9,10 @@ using Microsoft.AspNetCore.Mvc;
 public class UserController
 {
     private readonly IMediator _mediator;
-    private readonly IUserRepository _repository;
 
-    public UserController(IMediator mediator, IUserRepository repository)
+    public UserController(IMediator mediator)
     {
         _mediator = mediator;
-        _repository = repository;
     }
 
     [Route("GetUserList")]

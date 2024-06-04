@@ -5,15 +5,15 @@ namespace API;
 
 public class GetProductListHandler : IRequestHandler<GetProductListQuery, List<Product>>
 {
-    private readonly IProductRepository _repository;
+    private readonly IRepository<Product> _repository;
 
-    public GetProductListHandler(IProductRepository repository)
+    public GetProductListHandler(IRepository<Product> repository)
     {
         _repository = repository;
     }
 
     public Task<List<Product>> Handle(GetProductListQuery request, CancellationToken cancellationToken)
     {
-        return Task.FromResult(_repository.GetProductList());
+        return Task.FromResult(_repository.GetList());
     }
 }

@@ -9,12 +9,10 @@ using Microsoft.AspNetCore.Mvc;
 public class ProductController
 {
     private readonly IMediator _mediator;
-    private readonly IUserRepository _repository;
 
-    public ProductController(IMediator mediator, IUserRepository repository)
+    public ProductController(IMediator mediator)
     {
         _mediator = mediator;
-        _repository = repository;
     }
 
     [Route("GetProductList")]

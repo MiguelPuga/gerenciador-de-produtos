@@ -5,10 +5,10 @@ namespace API;
 
 public class DeleteUserHandler : IRequestHandler<DeleteUserRequest, DeleteUserResponse>
 {
-    private readonly IUserRepository _repository;
+    private readonly IRepository<User> _repository;
     private readonly IMediator _mediator;
 
-    public DeleteUserHandler(IMediator mediator, IUserRepository repository)
+    public DeleteUserHandler(IMediator mediator, IRepository<User> repository)
     {
         _mediator = mediator;
         _repository = repository;

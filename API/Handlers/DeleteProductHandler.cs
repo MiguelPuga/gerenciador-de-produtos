@@ -5,10 +5,10 @@ namespace API;
 
 public class DeleteProductHandler : IRequestHandler<DeleteProductRequest, DeleteProductResponse>
 {
-    private readonly IProductRepository _repository;
+    private readonly IRepository<Product> _repository;
     private readonly IMediator _mediator;
 
-    public DeleteProductHandler(IMediator mediator, IProductRepository repository)
+    public DeleteProductHandler(IMediator mediator, IRepository<Product> repository)
     {
         _mediator = mediator;
         _repository = repository;

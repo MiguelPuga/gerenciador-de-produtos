@@ -1,5 +1,5 @@
 ﻿namespace Domain;
-public class EntityBase
+public abstract class EntityBase
 {
     public Guid Id { get; private set; }
 

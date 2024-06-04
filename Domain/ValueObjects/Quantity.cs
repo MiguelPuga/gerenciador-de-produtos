@@ -3,5 +3,5 @@
 public record Quantity
 (
     float quantity,
-    string measure
+    string unit
 );

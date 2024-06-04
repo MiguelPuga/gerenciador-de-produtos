@@ -17,6 +17,7 @@ builder.Services.AddDbContext<DatabaseContext>(opt => opt.UseInMemoryDatabase("D
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
 builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
+builder.Services.AddScoped<IRepository<Stock>, StockRepository>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(UserController)));
 

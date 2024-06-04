@@ -15,11 +15,11 @@ public class UpdateCategoryHandler : IRequestHandler<UpdateCategoryRequest, Upda
     }
     public async Task<UpdateCategoryResponse> Handle(UpdateCategoryRequest request, CancellationToken cancellationToken)
     {
-        var Category = await _mediator.Send(new GetCategoryByIdQuery(request.id));
+        var category = await _mediator.Send(new GetCategoryByIdQuery(request.id));
 
-        _repository.Update(Category, request.Category);
+        _repository.Update(category, request.category);
 
-        var result = new UpdateCategoryResponse(Category.Id, request.Category.name, DateTime.Now);
+        var result = new UpdateCategoryResponse(category.Id, request.category.name, DateTime.Now);
 
         return await Task.FromResult(result);
     }

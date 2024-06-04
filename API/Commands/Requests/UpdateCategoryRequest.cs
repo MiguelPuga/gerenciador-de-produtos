@@ -3,5 +3,5 @@ using MediatR;
 
 namespace API;
 
-public record UpdateCategoryRequest(Guid id, Category Category) : IRequest<UpdateCategoryResponse>;
+public record UpdateCategoryRequest(Guid id, Category category) : IRequest<UpdateCategoryResponse>;
 

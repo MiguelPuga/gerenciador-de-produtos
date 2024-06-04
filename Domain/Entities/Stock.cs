@@ -1,13 +1,15 @@
 ﻿namespace Domain;
 
-public class Stock
+public class Stock : EntityBase
 {
-    public Quantity quantity { get; private set; }
-    public Guid product { get; private set; }
+    public Guid product { get; set; }
+    public double quantity { get; set; }
+    public string unit { get; set; }
 
-    public Stock (Quantity quantity, Guid product)
+    public Stock(Guid product, double quantity, string unit)
     {
         this.quantity = quantity;
         this.product = product;
+        this.unit = unit;
     }
 }

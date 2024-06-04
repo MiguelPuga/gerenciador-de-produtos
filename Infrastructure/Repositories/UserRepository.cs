@@ -40,7 +40,6 @@ public class UserRepository : IRepository<User>
             return modified;
         }
 
-
         return null;
     }
 

@@ -1,5 +1,4 @@
 ﻿using Domain;
-using Infrastructure;
 using MediatR;
 
 namespace API;

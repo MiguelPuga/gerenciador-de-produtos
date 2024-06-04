@@ -4,7 +4,7 @@ public class Category : EntityBase
 {
     public string name { get; set; }
 
-    protected Category(string name)
+    public Category(string name)
     {
         this.name = name;
     }

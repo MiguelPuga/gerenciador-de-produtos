@@ -10,18 +10,14 @@ public class Transaction : EntityBase
         Update = 'u'
     }
 
-    public Guid product { get; set; }
+    public Guid target { get; set; }
     public Guid user { get; set; }
-    public Guid stock { get; set; }
-    public double quantity { get; set; }
     public TransactionType type { get; set; }
 
-    public Transaction(Guid product, Guid user, Guid stock, double quantity, TransactionType type)
+    public Transaction(Guid target, Guid user, TransactionType type)
     {
-        this.product = product;
+        this.target = target;
         this.user = user;
-        this.stock = stock;
-        this.quantity = quantity;
         this.type = type;
     }
 }

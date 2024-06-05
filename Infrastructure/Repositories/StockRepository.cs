@@ -10,18 +10,18 @@ public class StockRepository : IRepository<Stock>
     {
         _context = context;
     }
-    public Stock Add(Stock Stock)
+    public Stock Add(Stock stock)
     {
-        var newStock = _context.Stock.Add(Stock).Entity;
+        var newStock = _context.Stock.Add(stock).Entity;
         _context.SaveChanges();
         return newStock;
     }
 
-    public bool Delete(Stock Stock)
+    public bool Delete(Stock stock)
     {
-        if (Stock != null)
+        if (stock != null)
         {
-            _context.Remove(Stock);
+            _context.Remove(stock);
             _context.SaveChanges();
             return true;
         }
@@ -31,11 +31,11 @@ public class StockRepository : IRepository<Stock>
 
     public Stock GetById(Guid id)
     {
-        var Stock = _context.Stock.Find(id);
+        var stock = _context.Stock.Find(id);
 
-        if (Stock != null)
+        if (stock != null)
         {
-            return Stock;
+            return stock;
         }
 
         return null;

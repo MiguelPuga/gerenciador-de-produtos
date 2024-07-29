@@ -1,0 +1,1697 @@
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Program.cs
+FN:7,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:8,0
+DA:9,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:26,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+BRDA:29,219,0,0
+BRDA:29,219,1,0
+LF:22
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\CreateCategoryRequest copy.cs
+FN:4,System.String API.CreateCategoryRequest::get_name()
+FNDA:0,System.String API.CreateCategoryRequest::get_name()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\CreateProductRequest.cs
+FN:4,System.String API.CreateProductRequest::get_name()
+FNDA:0,System.String API.CreateProductRequest::get_name()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\CreateStockRequest.cs
+FN:3,System.Guid API.CreateStockRequest::get_product()
+FNDA:0,System.Guid API.CreateStockRequest::get_product()
+DA:4,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\CreateTransactionReques.cs
+FN:6,System.Guid API.CreateTransactionRequest::get_target()
+FNDA:0,System.Guid API.CreateTransactionRequest::get_target()
+DA:7,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\CreateUserRequest.cs
+FN:4,System.String API.CreateUserRequest::get_name()
+FNDA:0,System.String API.CreateUserRequest::get_name()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\DeleteCategoryRequest.cs
+FN:4,System.Guid API.DeleteCategoryRequest::get_id()
+FNDA:0,System.Guid API.DeleteCategoryRequest::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\DeleteProductRequest.cs
+FN:4,System.Guid API.DeleteProductRequest::get_id()
+FNDA:0,System.Guid API.DeleteProductRequest::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\DeleteStockRequest.cs
+FN:4,System.Guid API.DeleteStockRequest::get_id()
+FNDA:0,System.Guid API.DeleteStockRequest::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\DeleteUserRequest.cs
+FN:4,System.Guid API.DeleteUserRequest::get_id()
+FNDA:0,System.Guid API.DeleteUserRequest::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\UpdateCategoryRequest.cs
+FN:5,System.Guid API.UpdateCategoryRequest::get_id()
+FNDA:0,System.Guid API.UpdateCategoryRequest::get_id()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\UpdateProductRequest.cs
+FN:5,System.Guid API.UpdateProductRequest::get_id()
+FNDA:0,System.Guid API.UpdateProductRequest::get_id()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\UpdateStockRequest.cs
+FN:5,System.Guid API.UpdateStockRequest::get_id()
+FNDA:0,System.Guid API.UpdateStockRequest::get_id()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Requests\UpdateUserRequest.cs
+FN:5,System.Guid API.UpdateUserRequest::get_id()
+FNDA:0,System.Guid API.UpdateUserRequest::get_id()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\CreateCategoryResponse.cs
+FN:1,System.Guid API.CreateCategoryResponse::get_Id()
+FNDA:0,System.Guid API.CreateCategoryResponse::get_Id()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\CreateProductResponse.cs
+FN:1,System.Guid API.CreateProductResponse::get_Id()
+FNDA:0,System.Guid API.CreateProductResponse::get_Id()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\CreateUserResponse.cs
+FN:1,System.Guid API.CreateUserResponse::get_Id()
+FNDA:0,System.Guid API.CreateUserResponse::get_Id()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\DeleteCategoryResponse.cs
+FN:2,System.String API.DeleteCategoryResponse::get_status()
+FNDA:0,System.String API.DeleteCategoryResponse::get_status()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\DeleteProductResponse.cs
+FN:2,System.String API.DeleteProductResponse::get_status()
+FNDA:0,System.String API.DeleteProductResponse::get_status()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\DeleteStockResponse.cs
+FN:2,System.String API.DeleteStockResponse::get_status()
+FNDA:0,System.String API.DeleteStockResponse::get_status()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\DeleteUserResponse.cs
+FN:2,System.String API.DeleteUserResponse::get_status()
+FNDA:0,System.String API.DeleteUserResponse::get_status()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\ICreateStockResponse.cs
+FN:3,System.Guid API.CreateStockResponseSuccessful::get_Id()
+FNDA:0,System.Guid API.CreateStockResponseSuccessful::get_Id()
+DA:4,0
+FN:5,System.String API.CreateStockResponseError::get_error()
+FNDA:0,System.String API.CreateStockResponseError::get_error()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\ICreateTransactionResponse.cs
+FN:4,System.Guid API.CreateTransactionResponseSuccessful::get_Id()
+FNDA:0,System.Guid API.CreateTransactionResponseSuccessful::get_Id()
+DA:5,0
+FN:6,System.String API.CreateTransactionResponseError::get_error()
+FNDA:0,System.String API.CreateTransactionResponseError::get_error()
+DA:7,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\UpdateCategoryResponse.cs
+FN:2,System.Guid API.UpdateCategoryResponse::get_Id()
+FNDA:0,System.Guid API.UpdateCategoryResponse::get_Id()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\UpdateProductResponse.cs
+FN:2,System.Guid API.UpdateProductResponse::get_Id()
+FNDA:0,System.Guid API.UpdateProductResponse::get_Id()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\UpdateStockResponse.cs
+FN:2,System.Guid API.UpdateStockResponse::get_Id()
+FNDA:0,System.Guid API.UpdateStockResponse::get_Id()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Commands\Responses\UpdateUserResponse.cs
+FN:2,System.Guid API.UpdateUserResponse::get_Id()
+FNDA:0,System.Guid API.UpdateUserResponse::get_Id()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Controllers\CategoryController.cs
+FN:12,System.Void API.CategoryController::.ctor(MediatR.IMediator)
+FNDA:0,System.Void API.CategoryController::.ctor(MediatR.IMediator)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:28,System.Void API.CategoryController/<GetCategoryById>d__3::MoveNext()
+FNDA:0,System.Void API.CategoryController/<GetCategoryById>d__3::MoveNext()
+DA:29,0
+DA:30,0
+DA:31,0
+FN:20,System.Void API.CategoryController/<GetCategoryList>d__2::MoveNext()
+FNDA:0,System.Void API.CategoryController/<GetCategoryList>d__2::MoveNext()
+DA:21,0
+DA:22,0
+DA:23,0
+FN:36,System.Void API.CategoryController/<Post>d__4::MoveNext()
+FNDA:0,System.Void API.CategoryController/<Post>d__4::MoveNext()
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+FN:44,System.Void API.CategoryController/<Post>d__5::MoveNext()
+FNDA:0,System.Void API.CategoryController/<Post>d__5::MoveNext()
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+FN:52,System.Void API.CategoryController/<Post>d__6::MoveNext()
+FNDA:0,System.Void API.CategoryController/<Post>d__6::MoveNext()
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+LF:22
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Controllers\ProductController.cs
+FN:12,System.Void API.ProductController::.ctor(MediatR.IMediator)
+FNDA:0,System.Void API.ProductController::.ctor(MediatR.IMediator)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:28,System.Void API.ProductController/<GetProductById>d__3::MoveNext()
+FNDA:0,System.Void API.ProductController/<GetProductById>d__3::MoveNext()
+DA:29,0
+DA:30,0
+DA:31,0
+FN:20,System.Void API.ProductController/<GetProductList>d__2::MoveNext()
+FNDA:0,System.Void API.ProductController/<GetProductList>d__2::MoveNext()
+DA:21,0
+DA:22,0
+DA:23,0
+FN:36,System.Void API.ProductController/<Post>d__4::MoveNext()
+FNDA:0,System.Void API.ProductController/<Post>d__4::MoveNext()
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+FN:44,System.Void API.ProductController/<Post>d__5::MoveNext()
+FNDA:0,System.Void API.ProductController/<Post>d__5::MoveNext()
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+FN:52,System.Void API.ProductController/<Post>d__6::MoveNext()
+FNDA:0,System.Void API.ProductController/<Post>d__6::MoveNext()
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+LF:22
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Controllers\StockController.cs
+FN:12,System.Void API.StockController::.ctor(MediatR.IMediator)
+FNDA:0,System.Void API.StockController::.ctor(MediatR.IMediator)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:27,System.Void API.StockController/<GetStockById>d__3::MoveNext()
+FNDA:0,System.Void API.StockController/<GetStockById>d__3::MoveNext()
+DA:28,0
+DA:29,0
+DA:30,0
+FN:20,System.Void API.StockController/<GetStocks>d__2::MoveNext()
+FNDA:0,System.Void API.StockController/<GetStocks>d__2::MoveNext()
+DA:21,0
+DA:22,0
+DA:23,0
+FN:34,System.Void API.StockController/<Post>d__4::MoveNext()
+FNDA:0,System.Void API.StockController/<Post>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+FN:42,System.Void API.StockController/<Post>d__5::MoveNext()
+FNDA:0,System.Void API.StockController/<Post>d__5::MoveNext()
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+FN:50,System.Void API.StockController/<Post>d__6::MoveNext()
+FNDA:0,System.Void API.StockController/<Post>d__6::MoveNext()
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+LF:22
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Controllers\TransactionController.cs
+FN:12,System.Void API.TransactionController::.ctor(MediatR.IMediator)
+FNDA:0,System.Void API.TransactionController::.ctor(MediatR.IMediator)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:27,System.Void API.TransactionController/<GetTransactionById>d__3::MoveNext()
+FNDA:0,System.Void API.TransactionController/<GetTransactionById>d__3::MoveNext()
+DA:28,0
+DA:29,0
+DA:30,0
+FN:20,System.Void API.TransactionController/<GetTransactions>d__2::MoveNext()
+FNDA:0,System.Void API.TransactionController/<GetTransactions>d__2::MoveNext()
+DA:21,0
+DA:22,0
+DA:23,0
+FN:34,System.Void API.TransactionController/<Post>d__4::MoveNext()
+FNDA:0,System.Void API.TransactionController/<Post>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Controllers\UserController.cs
+FN:12,System.Void API.UserController::.ctor(MediatR.IMediator)
+FNDA:0,System.Void API.UserController::.ctor(MediatR.IMediator)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:27,System.Void API.UserController/<GetUserById>d__3::MoveNext()
+FNDA:0,System.Void API.UserController/<GetUserById>d__3::MoveNext()
+DA:28,0
+DA:29,0
+DA:30,0
+FN:20,System.Void API.UserController/<GetUsers>d__2::MoveNext()
+FNDA:0,System.Void API.UserController/<GetUsers>d__2::MoveNext()
+DA:21,0
+DA:22,0
+DA:23,0
+FN:34,System.Void API.UserController/<Post>d__4::MoveNext()
+FNDA:0,System.Void API.UserController/<Post>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+FN:42,System.Void API.UserController/<Post>d__5::MoveNext()
+FNDA:0,System.Void API.UserController/<Post>d__5::MoveNext()
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+FN:50,System.Void API.UserController/<Post>d__6::MoveNext()
+FNDA:0,System.Void API.UserController/<Post>d__6::MoveNext()
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+LF:22
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\CreateCategoryHandler.cs
+FN:14,System.Threading.Tasks.Task`1<API.CreateCategoryResponse> API.CreateCategoryHandler::Handle(API.CreateCategoryRequest,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<API.CreateCategoryResponse> API.CreateCategoryHandler::Handle(API.CreateCategoryRequest,System.Threading.CancellationToken)
+DA:15,0
+DA:18,0
+DA:21,0
+DA:24,0
+DA:25,0
+DA:26,0
+FN:8,System.Void API.CreateCategoryHandler::.ctor(Domain.IRepository`1<Domain.Category>)
+FNDA:0,System.Void API.CreateCategoryHandler::.ctor(Domain.IRepository`1<Domain.Category>)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\CreateProductHandler.cs
+FN:14,System.Threading.Tasks.Task`1<API.CreateProductResponse> API.CreateProductHandler::Handle(API.CreateProductRequest,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<API.CreateProductResponse> API.CreateProductHandler::Handle(API.CreateProductRequest,System.Threading.CancellationToken)
+DA:15,0
+DA:18,0
+DA:21,0
+DA:24,0
+DA:25,0
+DA:26,0
+FN:8,System.Void API.CreateProductHandler::.ctor(Domain.IRepository`1<Domain.Product>)
+FNDA:0,System.Void API.CreateProductHandler::.ctor(Domain.IRepository`1<Domain.Product>)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\CreateStockHandler.cs
+FN:9,System.Void API.CreateStockHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Stock>)
+FNDA:0,System.Void API.CreateStockHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Stock>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+FN:16,System.Void API.CreateStockHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.CreateStockHandler/<Handle>d__3::MoveNext()
+DA:17,0
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:27,0
+DA:30,0
+DA:33,0
+DA:34,0
+DA:35,0
+BRDA:21,209,0,0
+BRDA:21,209,1,0
+LF:15
+LH:0
+BRF:2
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\CreateTransactionHandler.cs
+FN:9,System.Void API.CreateTransactionHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Transaction>)
+FNDA:0,System.Void API.CreateTransactionHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Transaction>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+FN:16,System.Void API.CreateTransactionHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.CreateTransactionHandler/<Handle>d__3::MoveNext()
+DA:17,0
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:35,0
+DA:38,0
+DA:41,0
+DA:42,0
+DA:43,0
+BRDA:21,236,0,0
+BRDA:21,236,1,0
+BRDA:29,689,0,0
+BRDA:29,689,1,0
+BRDA:29,707,0,0
+BRDA:29,707,1,0
+LF:20
+LH:0
+BRF:6
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\CreateUserHandler.cs
+FN:14,System.Threading.Tasks.Task`1<API.CreateUserResponse> API.CreateUserHandler::Handle(API.CreateUserRequest,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<API.CreateUserResponse> API.CreateUserHandler::Handle(API.CreateUserRequest,System.Threading.CancellationToken)
+DA:15,0
+DA:18,0
+DA:21,0
+DA:24,0
+DA:25,0
+DA:26,0
+FN:8,System.Void API.CreateUserHandler::.ctor(Domain.IRepository`1<Domain.User>)
+FNDA:0,System.Void API.CreateUserHandler::.ctor(Domain.IRepository`1<Domain.User>)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\DeleteCategoryHandler.cs
+FN:10,System.Void API.DeleteCategoryHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Category>)
+FNDA:0,System.Void API.DeleteCategoryHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Category>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:17,System.Void API.DeleteCategoryHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.DeleteCategoryHandler/<Handle>d__3::MoveNext()
+DA:18,0
+DA:19,0
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:30,0
+DA:31,0
+BRDA:23,219,0,0
+BRDA:23,219,1,0
+LF:15
+LH:0
+BRF:2
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\DeleteProductHandler.cs
+FN:10,System.Void API.DeleteProductHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Product>)
+FNDA:0,System.Void API.DeleteProductHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Product>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:17,System.Void API.DeleteProductHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.DeleteProductHandler/<Handle>d__3::MoveNext()
+DA:18,0
+DA:19,0
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:30,0
+DA:31,0
+BRDA:23,219,0,0
+BRDA:23,219,1,0
+LF:15
+LH:0
+BRF:2
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\DeleteStockHandler.cs
+FN:10,System.Void API.DeleteStockHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Stock>)
+FNDA:0,System.Void API.DeleteStockHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Stock>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:17,System.Void API.DeleteStockHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.DeleteStockHandler/<Handle>d__3::MoveNext()
+DA:18,0
+DA:19,0
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:30,0
+DA:31,0
+BRDA:23,219,0,0
+BRDA:23,219,1,0
+LF:15
+LH:0
+BRF:2
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\DeleteUserHandler.cs
+FN:10,System.Void API.DeleteUserHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.User>)
+FNDA:0,System.Void API.DeleteUserHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.User>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:17,System.Void API.DeleteUserHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.DeleteUserHandler/<Handle>d__3::MoveNext()
+DA:18,0
+DA:19,0
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:30,0
+DA:31,0
+BRDA:23,219,0,0
+BRDA:23,219,1,0
+LF:15
+LH:0
+BRF:2
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetCategoryByIdHandler.cs
+FN:16,System.Threading.Tasks.Task`1<Domain.Category> API.GetCategoryByIdHandler::Handle(API.GetCategoryByIdQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<Domain.Category> API.GetCategoryByIdHandler::Handle(API.GetCategoryByIdQuery,System.Threading.CancellationToken)
+DA:17,0
+DA:18,0
+DA:19,0
+FN:10,System.Void API.GetCategoryByIdHandler::.ctor(Domain.IRepository`1<Domain.Category>)
+FNDA:0,System.Void API.GetCategoryByIdHandler::.ctor(Domain.IRepository`1<Domain.Category>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetCategoryListHandler.cs
+FN:15,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Category>> API.GetCategoryListHandler::Handle(API.GetCategoryListQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Category>> API.GetCategoryListHandler::Handle(API.GetCategoryListQuery,System.Threading.CancellationToken)
+DA:16,0
+DA:17,0
+DA:18,0
+FN:9,System.Void API.GetCategoryListHandler::.ctor(Domain.IRepository`1<Domain.Category>)
+FNDA:0,System.Void API.GetCategoryListHandler::.ctor(Domain.IRepository`1<Domain.Category>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetProductByIdHandler.cs
+FN:16,System.Threading.Tasks.Task`1<Domain.Product> API.GetProductByIdHandler::Handle(API.GetProductByIdQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<Domain.Product> API.GetProductByIdHandler::Handle(API.GetProductByIdQuery,System.Threading.CancellationToken)
+DA:17,0
+DA:18,0
+DA:19,0
+FN:10,System.Void API.GetProductByIdHandler::.ctor(Domain.IRepository`1<Domain.Product>)
+FNDA:0,System.Void API.GetProductByIdHandler::.ctor(Domain.IRepository`1<Domain.Product>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetProductListHandler.cs
+FN:15,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Product>> API.GetProductListHandler::Handle(API.GetProductListQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Product>> API.GetProductListHandler::Handle(API.GetProductListQuery,System.Threading.CancellationToken)
+DA:16,0
+DA:17,0
+DA:18,0
+FN:9,System.Void API.GetProductListHandler::.ctor(Domain.IRepository`1<Domain.Product>)
+FNDA:0,System.Void API.GetProductListHandler::.ctor(Domain.IRepository`1<Domain.Product>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetStockByIdHandler.cs
+FN:16,System.Threading.Tasks.Task`1<Domain.Stock> API.GetStockByIdHandler::Handle(API.GetStockByIdQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<Domain.Stock> API.GetStockByIdHandler::Handle(API.GetStockByIdQuery,System.Threading.CancellationToken)
+DA:17,0
+DA:18,0
+DA:19,0
+FN:10,System.Void API.GetStockByIdHandler::.ctor(Domain.IRepository`1<Domain.Stock>)
+FNDA:0,System.Void API.GetStockByIdHandler::.ctor(Domain.IRepository`1<Domain.Stock>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetStockListHandler.cs
+FN:15,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Stock>> API.GetStockListHandler::Handle(API.GetStockListQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Stock>> API.GetStockListHandler::Handle(API.GetStockListQuery,System.Threading.CancellationToken)
+DA:16,0
+DA:17,0
+DA:18,0
+FN:9,System.Void API.GetStockListHandler::.ctor(Domain.IRepository`1<Domain.Stock>)
+FNDA:0,System.Void API.GetStockListHandler::.ctor(Domain.IRepository`1<Domain.Stock>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetTransactionByIdHandler.cs
+FN:16,System.Threading.Tasks.Task`1<Domain.Transaction> API.GetTransactionByIdHandler::Handle(API.GetTransactionByIdQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<Domain.Transaction> API.GetTransactionByIdHandler::Handle(API.GetTransactionByIdQuery,System.Threading.CancellationToken)
+DA:17,0
+DA:18,0
+DA:19,0
+FN:10,System.Void API.GetTransactionByIdHandler::.ctor(Domain.IRepository`1<Domain.Transaction>)
+FNDA:0,System.Void API.GetTransactionByIdHandler::.ctor(Domain.IRepository`1<Domain.Transaction>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetTransactionListHandler.cs
+FN:15,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Transaction>> API.GetTransactionListHandler::Handle(API.GetTransactionListQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.Transaction>> API.GetTransactionListHandler::Handle(API.GetTransactionListQuery,System.Threading.CancellationToken)
+DA:16,0
+DA:17,0
+DA:18,0
+FN:9,System.Void API.GetTransactionListHandler::.ctor(Domain.IRepository`1<Domain.Transaction>)
+FNDA:0,System.Void API.GetTransactionListHandler::.ctor(Domain.IRepository`1<Domain.Transaction>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetUserByIdHandler.cs
+FN:16,System.Threading.Tasks.Task`1<Domain.User> API.GetUserByIdHandler::Handle(API.GetUserByIdQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<Domain.User> API.GetUserByIdHandler::Handle(API.GetUserByIdQuery,System.Threading.CancellationToken)
+DA:17,0
+DA:18,0
+DA:19,0
+FN:10,System.Void API.GetUserByIdHandler::.ctor(Domain.IRepository`1<Domain.User>)
+FNDA:0,System.Void API.GetUserByIdHandler::.ctor(Domain.IRepository`1<Domain.User>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\GetUserListHandler.cs
+FN:15,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.User>> API.GetUserListHandler::Handle(API.GetUserListQuery,System.Threading.CancellationToken)
+FNDA:0,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Domain.User>> API.GetUserListHandler::Handle(API.GetUserListQuery,System.Threading.CancellationToken)
+DA:16,0
+DA:17,0
+DA:18,0
+FN:9,System.Void API.GetUserListHandler::.ctor(Domain.IRepository`1<Domain.User>)
+FNDA:0,System.Void API.GetUserListHandler::.ctor(Domain.IRepository`1<Domain.User>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\UpdateCategoryHandler.cs
+FN:10,System.Void API.UpdateCategoryHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Category>)
+FNDA:0,System.Void API.UpdateCategoryHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Category>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:16,System.Void API.UpdateCategoryHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.UpdateCategoryHandler/<Handle>d__3::MoveNext()
+DA:17,0
+DA:18,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\UpdateProductHandler.cs
+FN:10,System.Void API.UpdateProductHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Product>)
+FNDA:0,System.Void API.UpdateProductHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Product>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:16,System.Void API.UpdateProductHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.UpdateProductHandler/<Handle>d__3::MoveNext()
+DA:17,0
+DA:18,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\UpdateStockHandler.cs
+FN:10,System.Void API.UpdateStockHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Stock>)
+FNDA:0,System.Void API.UpdateStockHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.Stock>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:16,System.Void API.UpdateStockHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.UpdateStockHandler/<Handle>d__3::MoveNext()
+DA:17,0
+DA:18,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Handlers\UpdateUserHandler.cs
+FN:10,System.Void API.UpdateUserHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.User>)
+FNDA:0,System.Void API.UpdateUserHandler::.ctor(MediatR.IMediator,Domain.IRepository`1<Domain.User>)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:16,System.Void API.UpdateUserHandler/<Handle>d__3::MoveNext()
+FNDA:0,System.Void API.UpdateUserHandler/<Handle>d__3::MoveNext()
+DA:17,0
+DA:18,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetCategoryByIdQuery.cs
+FN:4,System.Guid API.GetCategoryByIdQuery::get_id()
+FNDA:0,System.Guid API.GetCategoryByIdQuery::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetCategoryListQuery.cs
+FN:5,System.Void API.GetCategoryListQuery::.ctor()
+FNDA:0,System.Void API.GetCategoryListQuery::.ctor()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetProductByIdQuery.cs
+FN:4,System.Guid API.GetProductByIdQuery::get_id()
+FNDA:0,System.Guid API.GetProductByIdQuery::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetProductListQuery.cs
+FN:5,System.Void API.GetProductListQuery::.ctor()
+FNDA:0,System.Void API.GetProductListQuery::.ctor()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetStockByIdQuery.cs
+FN:4,System.Guid API.GetStockByIdQuery::get_id()
+FNDA:0,System.Guid API.GetStockByIdQuery::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetStockListQuery.cs
+FN:5,System.Void API.GetStockListQuery::.ctor()
+FNDA:0,System.Void API.GetStockListQuery::.ctor()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetTransactionByIdQuery.cs
+FN:4,System.Guid API.GetTransactionByIdQuery::get_id()
+FNDA:0,System.Guid API.GetTransactionByIdQuery::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetTransactionListQuery.cs
+FN:5,System.Void API.GetTransactionListQuery::.ctor()
+FNDA:0,System.Void API.GetTransactionListQuery::.ctor()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetUserByIdQuery.cs
+FN:4,System.Guid API.GetUserByIdQuery::get_id()
+FNDA:0,System.Guid API.GetUserByIdQuery::get_id()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\API\Queries\GetUserListQuery.cs
+FN:5,System.Void API.GetUserListQuery::.ctor()
+FNDA:0,System.Void API.GetUserListQuery::.ctor()
+DA:6,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Program.cs
+FN:1,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Entities\Category.cs
+FN:4,System.String Domain.Category::get_name()
+FNDA:0,System.String Domain.Category::get_name()
+DA:5,0
+FN:6,System.Void Domain.Category::.ctor(System.String)
+FNDA:0,System.Void Domain.Category::.ctor(System.String)
+DA:7,0
+DA:8,0
+DA:9,0
+DA:10,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Entities\EntityBase.cs
+FN:3,System.Guid Domain.EntityBase::get_Id()
+FNDA:16,System.Guid Domain.EntityBase::get_Id()
+DA:4,16
+FN:5,System.Void Domain.EntityBase::.ctor()
+FNDA:10,System.Void Domain.EntityBase::.ctor()
+DA:6,10
+DA:7,10
+DA:8,10
+DA:9,10
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Entities\Product.cs
+FN:6,System.String Domain.Product::get_name()
+FNDA:0,System.String Domain.Product::get_name()
+DA:7,0
+FN:7,System.Decimal Domain.Product::get_price()
+FNDA:0,System.Decimal Domain.Product::get_price()
+DA:8,0
+FN:9,System.String Domain.Product::get_currency()
+FNDA:0,System.String Domain.Product::get_currency()
+DA:10,0
+FN:11,System.Void Domain.Product::.ctor(System.String,System.Decimal,System.String)
+FNDA:0,System.Void Domain.Product::.ctor(System.String,System.Decimal,System.String)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Entities\Stock.cs
+FN:4,System.Guid Domain.Stock::get_product()
+FNDA:0,System.Guid Domain.Stock::get_product()
+DA:5,0
+FN:5,System.Double Domain.Stock::get_quantity()
+FNDA:0,System.Double Domain.Stock::get_quantity()
+DA:6,0
+FN:6,System.String Domain.Stock::get_unit()
+FNDA:0,System.String Domain.Stock::get_unit()
+DA:7,0
+FN:8,System.Void Domain.Stock::.ctor(System.Guid,System.Double,System.String)
+FNDA:0,System.Void Domain.Stock::.ctor(System.Guid,System.Double,System.String)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Entities\Transaction.cs
+FN:12,System.Guid Domain.Transaction::get_target()
+FNDA:0,System.Guid Domain.Transaction::get_target()
+DA:13,0
+FN:13,System.Guid Domain.Transaction::get_user()
+FNDA:0,System.Guid Domain.Transaction::get_user()
+DA:14,0
+FN:14,Domain.Transaction/TransactionType Domain.Transaction::get_type()
+FNDA:0,Domain.Transaction/TransactionType Domain.Transaction::get_type()
+DA:15,0
+FN:16,System.Void Domain.Transaction::.ctor(System.Guid,System.Guid,Domain.Transaction/TransactionType)
+FNDA:0,System.Void Domain.Transaction::.ctor(System.Guid,System.Guid,Domain.Transaction/TransactionType)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\Entities\User.cs
+FN:4,System.String Domain.User::get_name()
+FNDA:14,System.String Domain.User::get_name()
+DA:5,14
+FN:5,System.String Domain.User::get_email()
+FNDA:14,System.String Domain.User::get_email()
+DA:6,14
+FN:7,System.Void Domain.User::.ctor(System.String,System.String)
+FNDA:10,System.Void Domain.User::.ctor(System.String,System.String)
+DA:8,10
+DA:9,10
+DA:10,10
+DA:11,10
+DA:12,10
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\ValueObjects\Address.cs
+FN:4,System.String Domain.Address::get_zipCode()
+FNDA:0,System.String Domain.Address::get_zipCode()
+DA:5,0
+FN:5,System.String Domain.Address::get_country()
+FNDA:0,System.String Domain.Address::get_country()
+DA:6,0
+FN:6,System.String Domain.Address::get_state()
+FNDA:0,System.String Domain.Address::get_state()
+DA:7,0
+FN:7,System.String Domain.Address::get_street()
+FNDA:0,System.String Domain.Address::get_street()
+DA:8,0
+FN:2,System.Void Domain.Address::.ctor(System.String,System.String,System.String,System.String)
+FNDA:0,System.Void Domain.Address::.ctor(System.String,System.String,System.String,System.String)
+DA:3,0
+DA:4,0
+DA:9,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\ValueObjects\Price.cs
+FN:7,System.Decimal Domain.Price::get_value()
+FNDA:0,System.Decimal Domain.Price::get_value()
+DA:8,0
+FN:8,System.String Domain.Price::get_currency()
+FNDA:0,System.String Domain.Price::get_currency()
+DA:9,0
+FN:5,System.Void Domain.Price::.ctor(System.Decimal,System.String)
+FNDA:0,System.Void Domain.Price::.ctor(System.Decimal,System.String)
+DA:6,0
+DA:7,0
+DA:10,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Domain\ValueObjects\Quantity.cs
+FN:4,System.Single Domain.Quantity::get_quantity()
+FNDA:0,System.Single Domain.Quantity::get_quantity()
+DA:5,0
+FN:5,System.String Domain.Quantity::get_unit()
+FNDA:0,System.String Domain.Quantity::get_unit()
+DA:6,0
+FN:2,System.Void Domain.Quantity::.ctor(System.Single,System.String)
+FNDA:0,System.Void Domain.Quantity::.ctor(System.Single,System.String)
+DA:3,0
+DA:4,0
+DA:7,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\Data\DatabaseContext.cs
+FN:16,Microsoft.EntityFrameworkCore.DbSet`1<Domain.User> Infrastructure.DatabaseContext::get_Users()
+FNDA:25,Microsoft.EntityFrameworkCore.DbSet`1<Domain.User> Infrastructure.DatabaseContext::get_Users()
+DA:17,25
+FN:17,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Product> Infrastructure.DatabaseContext::get_Products()
+FNDA:9,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Product> Infrastructure.DatabaseContext::get_Products()
+DA:18,9
+FN:18,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Category> Infrastructure.DatabaseContext::get_Categories()
+FNDA:9,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Category> Infrastructure.DatabaseContext::get_Categories()
+DA:19,9
+FN:19,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Stock> Infrastructure.DatabaseContext::get_Stock()
+FNDA:9,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Stock> Infrastructure.DatabaseContext::get_Stock()
+DA:20,9
+FN:20,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Transaction> Infrastructure.DatabaseContext::get_Transactions()
+FNDA:9,Microsoft.EntityFrameworkCore.DbSet`1<Domain.Transaction> Infrastructure.DatabaseContext::get_Transactions()
+DA:21,9
+FN:8,System.Void Infrastructure.DatabaseContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Infrastructure.DatabaseContext>)
+FNDA:9,System.Void Infrastructure.DatabaseContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Infrastructure.DatabaseContext>)
+DA:9,9
+DA:10,18
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\Repositories\CategoryRepository.cs
+FN:13,Domain.Category Infrastructure.CategoryRepository::Add(Domain.Category)
+FNDA:0,Domain.Category Infrastructure.CategoryRepository::Add(Domain.Category)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:20,System.Boolean Infrastructure.CategoryRepository::Delete(Domain.Category)
+FNDA:0,System.Boolean Infrastructure.CategoryRepository::Delete(Domain.Category)
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:29,0
+DA:30,0
+BRDA:22,7,0,0
+BRDA:22,7,1,0
+FN:32,Domain.Category Infrastructure.CategoryRepository::GetById(System.Guid)
+FNDA:0,Domain.Category Infrastructure.CategoryRepository::GetById(System.Guid)
+DA:33,0
+DA:34,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:41,0
+DA:42,0
+BRDA:36,39,0,0
+BRDA:36,39,1,0
+FN:44,System.Collections.Generic.List`1<Domain.Category> Infrastructure.CategoryRepository::GetList()
+FNDA:0,System.Collections.Generic.List`1<Domain.Category> Infrastructure.CategoryRepository::GetList()
+DA:45,0
+DA:46,0
+DA:47,0
+FN:49,Domain.Category Infrastructure.CategoryRepository::Update(Domain.Category,Domain.Category)
+FNDA:0,Domain.Category Infrastructure.CategoryRepository::Update(Domain.Category,Domain.Category)
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:55,0
+DA:56,0
+DA:60,0
+DA:61,0
+BRDA:51,2,0,0
+BRDA:51,2,1,0
+BRDA:51,13,0,0
+BRDA:51,13,1,0
+FN:8,System.Void Infrastructure.CategoryRepository::.ctor(Infrastructure.DatabaseContext)
+FNDA:0,System.Void Infrastructure.CategoryRepository::.ctor(Infrastructure.DatabaseContext)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:35
+LH:0
+BRF:8
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\Repositories\ProductRepository.cs
+FN:13,Domain.Product Infrastructure.ProductRepository::Add(Domain.Product)
+FNDA:0,Domain.Product Infrastructure.ProductRepository::Add(Domain.Product)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:20,System.Boolean Infrastructure.ProductRepository::Delete(Domain.Product)
+FNDA:0,System.Boolean Infrastructure.ProductRepository::Delete(Domain.Product)
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:29,0
+DA:30,0
+BRDA:22,7,0,0
+BRDA:22,7,1,0
+FN:32,Domain.Product Infrastructure.ProductRepository::GetById(System.Guid)
+FNDA:0,Domain.Product Infrastructure.ProductRepository::GetById(System.Guid)
+DA:33,0
+DA:34,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:41,0
+DA:42,0
+BRDA:36,39,0,0
+BRDA:36,39,1,0
+FN:44,System.Collections.Generic.List`1<Domain.Product> Infrastructure.ProductRepository::GetList()
+FNDA:0,System.Collections.Generic.List`1<Domain.Product> Infrastructure.ProductRepository::GetList()
+DA:45,0
+DA:46,0
+DA:47,0
+FN:49,Domain.Product Infrastructure.ProductRepository::Update(Domain.Product,Domain.Product)
+FNDA:0,Domain.Product Infrastructure.ProductRepository::Update(Domain.Product,Domain.Product)
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:62,0
+DA:63,0
+BRDA:51,2,0,0
+BRDA:51,2,1,0
+BRDA:51,13,0,0
+BRDA:51,13,1,0
+FN:8,System.Void Infrastructure.ProductRepository::.ctor(Infrastructure.DatabaseContext)
+FNDA:0,System.Void Infrastructure.ProductRepository::.ctor(Infrastructure.DatabaseContext)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:37
+LH:0
+BRF:8
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\Repositories\StockRepository.cs
+FN:13,Domain.Stock Infrastructure.StockRepository::Add(Domain.Stock)
+FNDA:0,Domain.Stock Infrastructure.StockRepository::Add(Domain.Stock)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:20,System.Boolean Infrastructure.StockRepository::Delete(Domain.Stock)
+FNDA:0,System.Boolean Infrastructure.StockRepository::Delete(Domain.Stock)
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:29,0
+DA:30,0
+BRDA:22,7,0,0
+BRDA:22,7,1,0
+FN:32,Domain.Stock Infrastructure.StockRepository::GetById(System.Guid)
+FNDA:0,Domain.Stock Infrastructure.StockRepository::GetById(System.Guid)
+DA:33,0
+DA:34,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:41,0
+DA:42,0
+BRDA:36,39,0,0
+BRDA:36,39,1,0
+FN:44,System.Collections.Generic.List`1<Domain.Stock> Infrastructure.StockRepository::GetList()
+FNDA:0,System.Collections.Generic.List`1<Domain.Stock> Infrastructure.StockRepository::GetList()
+DA:45,0
+DA:46,0
+DA:47,0
+FN:49,Domain.Stock Infrastructure.StockRepository::Update(Domain.Stock,Domain.Stock)
+FNDA:0,Domain.Stock Infrastructure.StockRepository::Update(Domain.Stock,Domain.Stock)
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:60,0
+BRDA:51,2,0,0
+BRDA:51,2,1,0
+BRDA:51,13,0,0
+BRDA:51,13,1,0
+FN:8,System.Void Infrastructure.StockRepository::.ctor(Infrastructure.DatabaseContext)
+FNDA:0,System.Void Infrastructure.StockRepository::.ctor(Infrastructure.DatabaseContext)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:36
+LH:0
+BRF:8
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\Repositories\TransactionRepository.cs
+FN:13,Domain.Transaction Infrastructure.TransactionRepository::Add(Domain.Transaction)
+FNDA:0,Domain.Transaction Infrastructure.TransactionRepository::Add(Domain.Transaction)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:20,System.Boolean Infrastructure.TransactionRepository::Delete(Domain.Transaction)
+FNDA:0,System.Boolean Infrastructure.TransactionRepository::Delete(Domain.Transaction)
+DA:21,0
+DA:22,0
+FN:25,Domain.Transaction Infrastructure.TransactionRepository::Update(Domain.Transaction,Domain.Transaction)
+FNDA:0,Domain.Transaction Infrastructure.TransactionRepository::Update(Domain.Transaction,Domain.Transaction)
+DA:26,0
+DA:27,0
+FN:30,System.Collections.Generic.List`1<Domain.Transaction> Infrastructure.TransactionRepository::GetList()
+FNDA:0,System.Collections.Generic.List`1<Domain.Transaction> Infrastructure.TransactionRepository::GetList()
+DA:31,0
+DA:32,0
+DA:33,0
+FN:35,Domain.Transaction Infrastructure.TransactionRepository::GetById(System.Guid)
+FNDA:0,Domain.Transaction Infrastructure.TransactionRepository::GetById(System.Guid)
+DA:36,0
+DA:37,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:44,0
+DA:45,0
+BRDA:39,39,0,0
+BRDA:39,39,1,0
+FN:7,System.Void Infrastructure.TransactionRepository::.ctor(Infrastructure.DatabaseContext)
+FNDA:0,System.Void Infrastructure.TransactionRepository::.ctor(Infrastructure.DatabaseContext)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+LF:23
+LH:0
+BRF:2
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\miguel.puga\Documents\Dev\gerenciador-de-produtos\Infrastructure\Repositories\UserRepository.cs
+FN:13,Domain.User Infrastructure.UserRepository::Add(Domain.User)
+FNDA:1,Domain.User Infrastructure.UserRepository::Add(Domain.User)
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+FN:20,System.Boolean Infrastructure.UserRepository::Delete(Domain.User)
+FNDA:2,System.Boolean Infrastructure.UserRepository::Delete(Domain.User)
+DA:21,2
+DA:22,2
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:29,1
+DA:30,2
+BRDA:22,7,0,1
+BRDA:22,7,1,1
+FN:32,Domain.User Infrastructure.UserRepository::Update(Domain.User,Domain.User)
+FNDA:3,Domain.User Infrastructure.UserRepository::Update(Domain.User,Domain.User)
+DA:33,3
+DA:34,3
+DA:35,1
+DA:36,1
+DA:37,1
+DA:39,1
+DA:40,1
+DA:43,2
+DA:44,3
+BRDA:34,2,0,2
+BRDA:34,2,1,1
+BRDA:34,13,0,1
+BRDA:34,13,1,2
+FN:46,System.Collections.Generic.List`1<Domain.User> Infrastructure.UserRepository::GetList()
+FNDA:1,System.Collections.Generic.List`1<Domain.User> Infrastructure.UserRepository::GetList()
+DA:47,1
+DA:48,1
+DA:49,1
+FN:51,Domain.User Infrastructure.UserRepository::GetById(System.Guid)
+FNDA:2,Domain.User Infrastructure.UserRepository::GetById(System.Guid)
+DA:52,2
+DA:53,2
+DA:55,2
+DA:56,1
+DA:57,1
+DA:60,1
+DA:61,2
+BRDA:55,39,0,1
+BRDA:55,39,1,1
+FN:7,System.Void Infrastructure.UserRepository::.ctor(Infrastructure.DatabaseContext)
+FNDA:9,System.Void Infrastructure.UserRepository::.ctor(Infrastructure.DatabaseContext)
+DA:8,9
+DA:9,9
+DA:10,9
+DA:11,9
+LF:36
+LH:36
+BRF:8
+BRH:8
+FNF:6
+FNH:6
+end_of_record
